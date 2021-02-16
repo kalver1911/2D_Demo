@@ -1,0 +1,882 @@
+fileFormatVersion: 2
+guid: 8f9bcb23f768ba848a755829637d8672
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6900779787759774018
+    second: idlerunshootjump_0
+  - first:
+      213: 5776687488284939619
+    second: idlerunshootjump_1
+  - first:
+      213: 9025763025775763016
+    second: idlerunshootjump_2
+  - first:
+      213: 4167674745797625361
+    second: idlerunshootjump_3
+  - first:
+      213: 6635097248680142096
+    second: idlerunshootjump_4
+  - first:
+      213: 4598719585778642771
+    second: idlerunshootjump_5
+  - first:
+      213: -4758820428584086123
+    second: idlerunshootjump_6
+  - first:
+      213: 2978782075700639010
+    second: idlerunshootjump_7
+  - first:
+      213: 1682780166423422498
+    second: idlerunshootjump_8
+  - first:
+      213: -210975777641954118
+    second: idlerunshootjump_9
+  - first:
+      213: -5243309734775687214
+    second: idlerunshootjump_10
+  - first:
+      213: -3098417046346599947
+    second: idlerunshootjump_11
+  - first:
+      213: -8740495163644539659
+    second: idlerunshootjump_12
+  - first:
+      213: 7020104392467901013
+    second: idlerunshootjump_13
+  - first:
+      213: 1514548848782013737
+    second: idlerunshootjump_14
+  - first:
+      213: 8164396086835195444
+    second: idlerunshootjump_15
+  - first:
+      213: -5233165780772820612
+    second: idlerunshootjump_16
+  - first:
+      213: 6619110310972876970
+    second: idlerunshootjump_17
+  - first:
+      213: -1609766003952192442
+    second: idlerunshootjump_18
+  - first:
+      213: -4514241929746933723
+    second: idlerunshootjump_19
+  - first:
+      213: 7171908290927784684
+    second: idlerunshootjump_20
+  - first:
+      213: 1682203338676312472
+    second: idlerunshootjump_21
+  - first:
+      213: 6316287623726140670
+    second: idlerunshootjump_22
+  - first:
+      213: 8334334401867240060
+    second: idlerunshootjump_23
+  - first:
+      213: -2137835084064451713
+    second: idlerunshootjump_24
+  - first:
+      213: -7537720454340235020
+    second: idlerunshootjump_25
+  - first:
+      213: 2045857428826595896
+    second: idlerunshootjump_26
+  - first:
+      213: -3073742938997365569
+    second: idlerunshootjump_27
+  - first:
+      213: -4754363810947664470
+    second: idlerunshootjump_0
+  - first:
+      213: -821080766491303745
+    second: idlerunshootjump_1
+  - first:
+      213: 8187402586591401141
+    second: idlerunshootjump_2
+  - first:
+      213: 6812771789057820974
+    second: idlerunshootjump_3
+  - first:
+      213: 255957994511373778
+    second: idlerunshootjump_4
+  - first:
+      213: -2849372145724458575
+    second: idlerunshootjump_5
+  - first:
+      213: 3778619579845370052
+    second: idlerunshootjump_6
+  - first:
+      213: -4010005351249378868
+    second: idlerunshootjump_7
+  - first:
+      213: -1357875925722445474
+    second: idlerunshootjump_8
+  - first:
+      213: -464409647593579105
+    second: idlerunshootjump_9
+  - first:
+      213: 3783608463921327679
+    second: idlerunshootjump_10
+  - first:
+      213: -3107351821743463161
+    second: idlerunshootjump_11
+  - first:
+      213: -5091661844726999876
+    second: idlerunshootjump_12
+  - first:
+      213: 5534279535841881659
+    second: idlerunshootjump_13
+  - first:
+      213: -2789750711928999660
+    second: idlerunshootjump_14
+  - first:
+      213: 6466062925086445737
+    second: idlerunshootjump_15
+  - first:
+      213: 4717437473532471423
+    second: idlerunshootjump_16
+  - first:
+      213: 6662244825224073740
+    second: idlerunshootjump_17
+  - first:
+      213: -6807831502731892606
+    second: idlerunshootjump_18
+  - first:
+      213: -416870115073232321
+    second: idlerunshootjump_19
+  - first:
+      213: 2580543122330244343
+    second: idlerunshootjump_20
+  - first:
+      213: 6130317995321987523
+    second: idlerunshootjump_21
+  - first:
+      213: -4374519492119119508
+    second: idlerunshootjump_22
+  - first:
+      213: -3253769190641101218
+    second: idlerunshootjump_23
+  - first:
+      213: -7240799694236382573
+    second: idlerunshootjump_24
+  - first:
+      213: 1365724628045115527
+    second: idlerunshootjump_25
+  - first:
+      213: 2092841237391348328
+    second: idlerunshootjump_26
+  - first:
+      213: 5954291529990532443
+    second: idlerunshootjump_28
+  - first:
+      213: -6011535698171794467
+    second: idlerunshootjump_29
+  - first:
+      213: 7312814266917543340
+    second: idlerunshootjump_30
+  - first:
+      213: 4339239643124916369
+    second: idlerunshootjump_31
+  - first:
+      213: -5165659935171815896
+    second: idlerunshootjump_32
+  - first:
+      213: -4647035178702715999
+    second: idlerunshootjump_33
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 1
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: idlerunshootjump_0
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 364
+        width: 40
+        height: 70
+      alignment: 9
+      pivot: {x: 0.5385002, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa5fd7bbd4b150eb0800000000000000
+      internalID: -4754363810947664470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idlerunshootjump_1
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 365
+        width: 36
+        height: 71
+      alignment: 9
+      pivot: {x: 0.5693976, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb06165a46fea94f0800000000000000
+      internalID: -821080766491303745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idlerunshootjump_2
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 366
+        width: 32
+        height: 72
+      alignment: 9
+      pivot: {x: 0.5781255, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b415e6164f7f9170800000000000000
+      internalID: 8187402586591401141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idlerunshootjump_3
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 367
+        width: 32
+        height: 72
+      alignment: 9
+      pivot: {x: 0.5774622, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e290896b8d3db8e50800000000000000
+      internalID: 6812771789057820974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idlerunshootjump_4
+      rect:
+        serializedVersion: 2
+        x: 253
+        y: 368
+        width: 32
+        height: 71
+      alignment: 9
+      pivot: {x: 0.57876396, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d5954c90785d8300800000000000000
+      internalID: 255957994511373778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idlerunshootjump_5
+      rect:
+        serializedVersion: 2
+        x: 316
+        y: 370
+        width: 36
+        height: 70
+      alignment: 9
+      pivot: {x: 0.54111224, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b9733d412ff478d0800000000000000
+      internalID: -2849372145724458575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idlerunshootjump_6
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 275
+        width: 45
+        height: 70
+      alignment: 9
+      pivot: {x: 0.44580227, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c0e406ec7a507430800000000000000
+      internalID: 3778619579845370052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idlerunshootjump_7
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 276
+        width: 45
+        height: 71
+      alignment: 9
+      pivot: {x: 0.4558799, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc18d5301699958c0800000000000000
+      internalID: -4010005351249378868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idlerunshootjump_8
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 277
+        width: 43
+        height: 72
+      alignment: 9
+      pivot: {x: 0.43096817, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5942463a0bd72de0800000000000000
+      internalID: -1357875925722445474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idlerunshootjump_9
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 278
+        width: 43
+        height: 72
+      alignment: 9
+      pivot: {x: 0.4306921, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9d9be4d2e51e89f0800000000000000
+      internalID: -464409647593579105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idlerunshootjump_10
+      rect:
+        serializedVersion: 2
+        x: 253
+        y: 279
+        width: 43
+        height: 71
+      alignment: 9
+      pivot: {x: 0.43000758, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3e213df9d3128430800000000000000
+      internalID: 3783608463921327679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idlerunshootjump_11
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 281
+        width: 45
+        height: 70
+      alignment: 9
+      pivot: {x: 0.45582613, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70561d84bf770e4d0800000000000000
+      internalID: -3107351821743463161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idlerunshootjump_12
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 185
+        width: 33
+        height: 67
+      alignment: 9
+      pivot: {x: 0.5590078, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb413ac6788c659b0800000000000000
+      internalID: -5091661844726999876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idlerunshootjump_13
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 186
+        width: 32
+        height: 65
+      alignment: 9
+      pivot: {x: 0.57687545, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3ea19d7ae5bdcc40800000000000000
+      internalID: 5534279535841881659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idlerunshootjump_14
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 186
+        width: 32
+        height: 67
+      alignment: 9
+      pivot: {x: 0.5780606, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 411349b1280d849d0800000000000000
+      internalID: -2789750711928999660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idlerunshootjump_15
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 186
+        width: 34
+        height: 66
+      alignment: 9
+      pivot: {x: 0.54524004, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a0d911c8f11cb950800000000000000
+      internalID: 6466062925086445737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idlerunshootjump_16
+      rect:
+        serializedVersion: 2
+        x: 237
+        y: 186
+        width: 32
+        height: 67
+      alignment: 9
+      pivot: {x: 0.5777912, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f78e40c5364b77140800000000000000
+      internalID: 4717437473532471423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idlerunshootjump_17
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 186
+        width: 32
+        height: 68
+      alignment: 9
+      pivot: {x: 0.5775013, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c025a26de5c057c50800000000000000
+      internalID: 6662244825224073740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idlerunshootjump_18
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 104
+        width: 40
+        height: 66
+      alignment: 9
+      pivot: {x: 0.46199512, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 288a3f45159b581a0800000000000000
+      internalID: -6807831502731892606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idlerunshootjump_19
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 104
+        width: 40
+        height: 65
+      alignment: 9
+      pivot: {x: 0.4624462, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f327599c6daf63af0800000000000000
+      internalID: -416870115073232321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idlerunshootjump_20
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 104
+        width: 40
+        height: 67
+      alignment: 9
+      pivot: {x: 0.46069032, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f452162c4eefc320800000000000000
+      internalID: 2580543122330244343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idlerunshootjump_21
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 104
+        width: 40
+        height: 66
+      alignment: 9
+      pivot: {x: 0.46204415, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c11a57acb3431550800000000000000
+      internalID: 6130317995321987523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idlerunshootjump_22
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 104
+        width: 40
+        height: 67
+      alignment: 9
+      pivot: {x: 0.46200028, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c69b739f2b59a43c0800000000000000
+      internalID: -4374519492119119508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idlerunshootjump_23
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 104
+        width: 40
+        height: 68
+      alignment: 9
+      pivot: {x: 0.46300048, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e561aba092a48d2d0800000000000000
+      internalID: -3253769190641101218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idlerunshootjump_24
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 9
+        width: 39
+        height: 69
+      alignment: 9
+      pivot: {x: 0.60359037, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39a884f9a03838b90800000000000000
+      internalID: -7240799694236382573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idlerunshootjump_25
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 11
+        width: 38
+        height: 67
+      alignment: 9
+      pivot: {x: 0.5657903, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 780b1a3305704f210800000000000000
+      internalID: 1365724628045115527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idlerunshootjump_26
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 14
+        width: 38
+        height: 70
+      alignment: 9
+      pivot: {x: 0.5663175, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 862100e54044b0d10800000000000000
+      internalID: 2092841237391348328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

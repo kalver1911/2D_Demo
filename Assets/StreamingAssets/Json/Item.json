@@ -1,0 +1,85 @@
+{
+  "prop": [
+    {
+      "name": "a",
+      "value": {
+        "description": "something",
+        "damage": 0.0,
+        "defence": 0.0,
+        "healing": 100.0,
+        "effect": "something",
+        "path": "RPGicons/64X64/Elixir_1"
+      }
+    },
+    {
+      "name": "b",
+      "value": {
+        "description": "something",
+        "damage": 200.0,
+        "defence": 200.0,
+        "healing": 200.0,
+        "effect": "something",
+        "path": "RPGicons/64X64/Elixir_2"
+      }
+    },
+    {
+      "name": "c",
+      "value": {
+        "description": "something",
+        "damage": 200.0,
+        "defence": 200.0,
+        "healing": 200.0,
+        "effect": "something",
+        "path": "RPGicons/64X64/Elixir_4"
+      }
+    }
+  ],
+  "weapon": [
+    {
+      "name": "d",
+      "value": {
+        "description": "something",
+        "damage": 100.0,
+        "defence": 100.0,
+        "healing": 0.0,
+        "effect": "something",
+        "path": "RPGicons/64X64/Shurikens"
+      }
+    }
+  ],
+  "slot":[
+    {
+      "name":"q",
+      "value":{
+        "description": "something",
+        "damage": 100.0,
+        "defence": 100.0,
+        "healing": 0.0,
+        "effect": "something",
+        "path":"RPGicons/64X64/Ax_3"
+      }
+    },
+    {
+      "name":"w",
+      "value":{
+        "description": "something",
+        "damage": 100.0,
+        "defence": 100.0,
+        "healing": 0.0,
+        "effect": "something",
+        "path":"RPGicons/64X64/Ax_2"
+      }
+    },
+    {
+      "name":"e",
+      "value":{
+        "description": "something",
+        "damage": 100.0,
+        "defence": 100.0,
+        "healing": 0.0,
+        "effect": "something",
+        "path":"RPGicons/64X64/Ax_1"
+      }
+    }
+  ]
+}
