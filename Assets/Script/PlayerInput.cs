@@ -89,7 +89,7 @@ public class PlayerInput : MonoBehaviour
     }
     private void Jump()     //按下跳跃
     {
-        rb.velocity = Vector2.up * 8;
+        rb.velocity = Vector2.up * 16;
         anim.SetTrigger("Jump");
     }
     private void CheckGround()
