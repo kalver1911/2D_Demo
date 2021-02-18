@@ -162,19 +162,27 @@ public class ExBullet : MonoBehaviour
             ShotEnable = false;
             print("发射第" + shoottime % shoot.Length + "槽位" + shoot[shoottime % shoot.Length]);
             shoottime++;
-            GameObject bullet = BP.GetPooledObject(NextBullet);//从对象池实例化子弹
-            if (bullet != null)
+            if (NextBullet != "null")
             {
-                bullet.SetActive(true);
-                bullet.transform.position = transform.position;         //子弹发射一刻的“位置”赋值
-                bullet.transform.eulerAngles = transform.eulerAngles;   //子弹发射一刻的“方向”赋值
+                GameObject bullet = BP.GetPooledObject(NextBullet);//从对象池实例化子弹
+                if (bullet != null)
+                {
+                    bullet.SetActive(true);
+                    bullet.transform.position = transform.position;         //子弹发射一刻的“位置”赋值
+                    bullet.transform.eulerAngles = transform.eulerAngles;   //子弹发射一刻的“方向”赋值
 
-                //ExBullet.instance.SetDamage(bullet);
-                SetMultipleShot(bullet);
+                    //ExBullet.instance.SetDamage(bullet);
+                    SetMultipleShot(bullet);
 
+                }
+                yield return new WaitForSeconds(0.5f);
+                ShotEnable = true;
             }
-            yield return new WaitForSeconds(0.5f);
-            ShotEnable = true;
+            else
+            {
+                yield return new WaitForSeconds(0.5f);
+                ShotEnable = true;
+            }
         }
     }
 }

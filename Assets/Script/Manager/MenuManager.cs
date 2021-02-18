@@ -72,7 +72,7 @@ public class MenuManager : MonoBehaviour
         return save;
     }
 
-    public void SaveByJSON()
+    public void SaveByJSON()            //菜单栏中的Save按钮
     {
         Save save = CreateSaveGameObject();
         string saveString = JsonUtility.ToJson(save);
@@ -82,7 +82,7 @@ public class MenuManager : MonoBehaviour
         Debug.Log("save success");
     }
 
-    public void LoadByJSON()
+    public void LoadByJSON()                //菜单栏中的Load按钮
     {
         if (File.Exists(Application.dataPath + "/StreamingAssets/Json/Data.text"))
         {
@@ -133,6 +133,10 @@ public class MenuManager : MonoBehaviour
             GameManager.Instance.currentWeapon.weaponProperties.TrackBullet = save.currentWeaponTrackBullet;
             GameManager.Instance.currentWeapon.weaponProperties.BulletRange = save.currentWeaponBulletRange;
             GameManager.Instance.currentWeapon.weaponProperties.shoot = save.currentWeaponShoot;
+
+            ExBullet.instance.MultipleBullet = GameManager.Instance.currentWeapon.weaponProperties.Multiple;
+            ExBullet.instance.Level = GameManager.Instance.currentWeapon.weaponProperties.DamageLevel;
+            ExBullet.instance.shoot = GameManager.Instance.currentWeapon.weaponProperties.shoot;
         }
         else
         {

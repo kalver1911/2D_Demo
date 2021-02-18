@@ -18,6 +18,8 @@ public class UIManager : MonoBehaviour
     private GameObject bag;
     [SerializeField]
     private GameObject menu;
+    [SerializeField]
+    private GameObject gameUI;
 
     // public GameObject[] square;
 

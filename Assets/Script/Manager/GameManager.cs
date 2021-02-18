@@ -61,6 +61,10 @@ public class GameManager : MonoBehaviour
         square[0].itemNumber = 2;
         square[1].itemNumber = 3;
         square[2].itemNumber = 1;
+
+        totalProgress = 100.0f;
+        currentProgress = 70.0f;
+        percentOfProgress = currentProgress / totalProgress;
     }
 
     private void Update()
@@ -139,6 +143,10 @@ public class GameManager : MonoBehaviour
         currentWeapon.weaponProperties.TrackBullet = wp.weaponProperties.TrackBullet;
         currentWeapon.weaponProperties.BulletRange = wp.weaponProperties.BulletRange;
         currentWeapon.weaponProperties.shoot = wp.weaponProperties.shoot;
+
+        ExBullet.instance.MultipleBullet = currentWeapon.weaponProperties.Multiple;
+        ExBullet.instance.Level = currentWeapon.weaponProperties.DamageLevel;
+        ExBullet.instance.shoot = currentWeapon.weaponProperties.shoot;
     }
 
     public void LoadWeapon(WeaponProperty wp)               //这是读取json保存的数据

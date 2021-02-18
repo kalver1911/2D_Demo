@@ -41,12 +41,12 @@ TagManager:
   - 
   - 
   m_SortingLayers:
-  - name: Default
-    uniqueID: 0
-    locked: 0
   - name: Sky
     uniqueID: 659104293
     locked: 0
   - name: Platform
     uniqueID: 1249556167
+    locked: 0
+  - name: Default
+    uniqueID: 0
     locked: 0
