@@ -1,25 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
-
-public class TipsControl : MonoBehaviour
-{
-    public GameObject moveText;
-
-
-    private void OnTriggerEnter2D(Collider2D other)
-    {
-        if (other.gameObject.layer == LayerMask.NameToLayer("Player"))
-        {
-            moveText.SetActive(true);
-        }
-    }
-
-    private void OnTriggerExit2D(Collider2D other)
-    {
-        if (other.gameObject.layer == LayerMask.NameToLayer("Player"))
-        {
-            moveText.SetActive(false);
-        }
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:f420daebe414cb3ea97c58c2f8a751696d654263d480e2a04470bf4b102b3b42
+size 1020
