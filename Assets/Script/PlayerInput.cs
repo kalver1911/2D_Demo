@@ -35,18 +35,23 @@ public class PlayerInput : MonoBehaviour
     void Update()
     {
         xVelocity = Input.GetAxis("Horizontal");
-        if ((Input.GetKeyDown(KeyCode.Space))&& OnGround)
+        if ((Input.GetKeyDown(KeyCode.Space)) && OnGround)
         {
             Jump();
         }
-        if (Input.GetMouseButton(0))
+        if (Input.GetMouseButton(1))
         {
-            StartCoroutine(ExBullet.instance.Shot());
+            if (Input.GetMouseButton(0))
+            {
+                StartCoroutine(ExBullet.instance.Shot());
+            }
             anim.SetFloat("Shoot", 1);
+            FlipDirection2();
         }
-        else 
+        else
         {
             anim.SetFloat("Shoot", 0);
+            FlipDirection();
         }
     }
     void FixedUpdate()
@@ -54,7 +59,6 @@ public class PlayerInput : MonoBehaviour
         anim.SetFloat("VerticalVelocity", rb.velocity.y);
         anim.SetBool("OnGround", OnGround);
         anim.SetFloat("Forward", Mathf.Abs(xVelocity));
-        FlipDirection2();
         GroundMove();
         CheckGround();
         BetterJump();
@@ -73,7 +77,7 @@ public class PlayerInput : MonoBehaviour
     }
     void FlipDirection2()
     {
-        if ((hitPos.ReturnMouseTOGroudPos().x-transform.position.x)>0)
+        if ((hitPos.ReturnMouseTOGroudPos().x - transform.position.x) > 0)
         {
             transform.rotation = Quaternion.Euler(0f, 0f, 0f);
             return;
@@ -85,7 +89,7 @@ public class PlayerInput : MonoBehaviour
     }
     void GroundMove()       //移动
     {
-        rb.velocity = new Vector2(xVelocity * (SnowWalk.activeInHierarchy==false?8:12), rb.velocity.y);
+        rb.velocity = new Vector2(xVelocity * (SnowWalk.activeInHierarchy == false ? 8 : 12), rb.velocity.y);
     }
     private void Jump()     //按下跳跃
     {
@@ -94,12 +98,12 @@ public class PlayerInput : MonoBehaviour
     }
     private void CheckGround()
     {
-        Collider2D collider = Physics2D.OverlapBox(checkPoint.position, checkBoxSize,0, layerMask); //绘制长方形，地面检测
+        Collider2D collider = Physics2D.OverlapBox(checkPoint.position, checkBoxSize, 0, layerMask); //绘制长方形，地面检测
         if (collider != null)
         {
             OnGround = true;
         }
-        else 
+        else
         {
             OnGround = false;
         }

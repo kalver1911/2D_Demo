@@ -58,7 +58,6 @@ public class Bullet : MonoBehaviour
     IEnumerator ThreeSecond()
     {
         yield return new WaitForSeconds(Range);
-        gameObject.transform.eulerAngles = a;
         gameObject.SetActive(false);
         Impact();
     }
