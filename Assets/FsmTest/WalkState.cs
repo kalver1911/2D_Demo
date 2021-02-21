@@ -30,7 +30,7 @@ public class WalkState : IState
         }
         if (manager.target != null)
         {
-            manager.Rb.velocity= new Vector2(manager.Dir * 250 * Time.deltaTime, manager.Rb.velocity.y);      //正向移动(移动这里和玩家移动方式不同，玩家是根据X的速度调整方向，这里要根据方向调整X速度方向)
+            manager.Rb.velocity = new Vector2(manager.Dir * 250 * Time.deltaTime, manager.Rb.velocity.y);      //正向移动(移动这里和玩家移动方式不同，玩家是根据X的速度调整方向，这里要根据方向调整X速度方向)
         }
     }
 

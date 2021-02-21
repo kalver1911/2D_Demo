@@ -1,13 +1,11 @@
+
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
 public class IdleState : IState
 {
     private FSM manager;
     private Parameter parameter;
-
-    private float timer;
     public IdleState(FSM manager)
     {
         this.manager = manager;
@@ -15,28 +13,22 @@ public class IdleState : IState
     }
     public void OnEnter()
     {
-        //parameter.animator.Play("Idle");
-        timer = manager.parameter.timer;
-        manager.parameter.animator.Play("Idle");
+        manager.parameter.animator.Play("HeroKnight_Idle");
     }
 
     public void OnUpdate()
     {
-        timer += Time.deltaTime;
-        Debug.Log("idle");
-        if (timer > 5)
+        if (manager.target != null && manager.Attacktarget != null)
         {
-            manager.TransitionState(StateType.Walk);
+            manager.TransitionState(StateType.Attack);
         }
-        if (manager.target == null)
+        else if (manager.target != null)
         {
-           manager.Rb.velocity = new Vector2(0, manager.Rb.velocity.y);
+            manager.TransitionState(StateType.Run);
         }
     }
 
     public void OnExit()
     {
-        Debug.Log("changetorun");
-        manager.parameter.timer=timer;
     }
 }
