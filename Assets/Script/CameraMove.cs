@@ -1,21 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
-
-public class CameraMove : MonoBehaviour
-{
-    public Transform Player;
-    private Vector3 offset;
-    [Range(0f, 100f)] public float force=6;
-    void Awake()
-    {
-        offset = Player.position - transform.position;
-    }
-
-    // Update is called once per frame  Vector3.Slerp(transform.position, Player.gameObject.transform.position,10);
-    void FixedUpdate()
-    {
-        //transform.position = Player.position - offset;
-        transform.position = Vector3.Slerp(transform.position, Player.position - offset, force / 100);
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:9e8d02350feec12c50bffbce12d12346bc954a527124dc0f4ab9dc34936ab58d
+size 642
