@@ -27,9 +27,9 @@ public class BlockIdleState : IState
         }
         timer += Time.deltaTime;
         manager.FlipDirection();
-        if (timer >= 3)
+        if (timer >= 4)
         {
-            manager.TransitionState(StateType.Block);
+            manager.TransitionState(StateType.Idle);
         }
     }
 

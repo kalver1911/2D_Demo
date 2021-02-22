@@ -48,6 +48,12 @@ public class Bullet : MonoBehaviour
             //    impact.transform.rotation = transform.rotation;
             //    impact.SetActive(true);
             //}
+
+
+            if (collision.gameObject.GetComponent<FSM>() != null)
+            {
+                collision.gameObject.GetComponent<FSM>().BlockTest();
+            }
             Impact();
         }
         if (collision.gameObject.CompareTag("Ground"))

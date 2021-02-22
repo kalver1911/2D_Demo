@@ -20,7 +20,7 @@ public class FSM : MonoBehaviour
 {
     public Rigidbody2D Rb;
     public LayerMask LM;
-    public float CircleRadius = 5;
+    public float CircleRadius = 10;
     public float AttackCircleRadius = 2;
     public Collider2D target;
     public Collider2D Attacktarget;
@@ -46,6 +46,9 @@ public class FSM : MonoBehaviour
 
     public void Update()
     {
+        Vector2 ababa = gameObject.transform.position;
+        Vector2 babab = Player.transform.position;
+        print(babab-ababa);
         if (Freeze != null)
         {
             if (Freeze.activeInHierarchy == false)
@@ -113,5 +116,9 @@ public class FSM : MonoBehaviour
         parameter.AttackEnable = false;
         yield return new WaitForSeconds(parameter.AttackCD);
         parameter.AttackEnable = true;
+    }
+    public void BlockTest()
+    {
+        TransitionState(StateType.Block);
     }
 }
